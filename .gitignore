@@ -1,0 +1,16 @@
+# Build artifacts
+temp_build/
+
+# Portable dependencies (too large for git)
+bin/classes/
+bin/android.jar
+
+# Generated plugin file in local build (stored in GitHub Releases)
+*.plugin
+
+# Script requiring full PluginSystem root
+change_versions.bat
+
+# Python cache
+__pycache__/
+*.pyc
